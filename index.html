@@ -1,0 +1,403 @@
+<!doctype html>
+<html>
+<style>
+    blockquote {
+        display: inline-block;
+        width: 500px;
+        font-size: 130%;
+        font-style: italic;
+        font-family: Georgia, Times, serif;
+        text-transform: capitalize;
+        text-align: left;
+        margin: 10;
+        padding: 10px;
+        border-top: 1px solid #665544;
+        border-bottom: 1px solid #665544;
+    }
+    
+    #top {
+        color: darkslateblue;
+        text-indent: 5px;
+    }
+    
+    h3 {
+        color: blue;
+        text-transform: uppercase;
+        border-color: cornsilk;
+        border-radius: 10px;
+        border-width: 16px;
+        border-style: outset;
+        background-color: cornsilk;
+        column-gap: 10px;
+        border-block: 50px;
+    }
+    
+    form {
+        padding: 40;
+        margin: 20px;
+        display: inline-block;
+    }
+    
+    fieldset {
+        width: 350px;
+        border: 1px solid #dcdcdc;
+        border-radius: 10px;
+        padding: 20px;
+        text-align: left;
+        display: inline-block;
+    }
+    
+    legend {
+        background-color: #b392922d;
+        border: 1px solid #dcdcdc;
+        border-radius: 10px;
+        padding: 10px 20px;
+        text-align: left;
+        text-transform: uppercase;
+    }
+    
+    body {
+        background-color: #b3929296;
+        display: block;
+        font-family: Arial, Verdana, sans-serif;
+        font: oblique;
+        margin: auto;
+    }
+    
+    #content {
+        overflow: visible;
+        height: 100%;
+    }
+    
+    article {
+        border: 1px solid #665544;
+        overflow: visible;
+    }
+    
+    main {
+        text-align: start;
+        display: inline-flex;
+        font-size: 16px;
+        text-transform: uppercase;
+        color: rgb(177, 9, 9);
+    }
+    
+    .p {
+        text-decoration: blue;
+        padding: 0px;
+        margin: 0px;
+        text-transform: capitalize;
+        float: inline-start;
+    }
+    
+    dt {
+        color: darkred;
+        text-decoration: dashed;
+        border-color: rgb(38, 151, 28);
+        border-style: double;
+        border-radius: 50px;
+        border-inline: initial;
+        block-size: 30;
+        padding: 6px;
+        margin: 16px;
+        text-transform: capitalize;
+    }
+    
+    dd {
+        color: rgb(8, 32, 168);
+        border-radius: 40px;
+        text-align: justify;
+        text-indent: 5px;
+        font-size: thin;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: oblique;
+        font-weight: lighter;
+        letter-spacing: 4px;
+        word-spacing: 4px;
+        letter-spacing: 4px;
+        display: inline-block;
+        margin: 6px;
+    }
+    
+    table {
+        color: rgb(19, 15, 78);
+        background-color: rgba(226, 189, 119, 0.459);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        font-style: oblique;
+        border-style: double;
+        border-radius: 30px;
+        border-width: medium;
+        border-style: double;
+        border-spacing: 5px;
+        border: royalblue;
+        text-transform: uppercase;
+        table-layout: unset;
+    }
+    
+    #list1 {
+        display: flex;
+        justify-content: space-evenly;
+        ²flex-direction: row;
+        border-radius: 20px;
+        border-spacing: 10px;
+        margin: 10px;
+        padding: 20px;
+        overflow: hidden;
+        box-shadow: inset 0 0 10px #777777;
+        list-style: none;
+    }
+    
+    li a:hover {
+        background-color: #555;
+        color: aliceblue;
+    }
+    
+    li:last-child {
+        border-right: none;
+    }
+</style>
+
+<head>
+    <title>My First Implementation HTML</title>
+</head>
+
+<body>
+    <ul id="list1">
+
+        <li id='home'><a href="default.asp">Home</a></li>
+        <li id='news'><a href="news.asp">News</a></li>
+        <li id='contact'><a href="contact.asp">Contact</a></li>
+        <li id='about'><a href="about.asp">About</a></li>
+
+    </ul>
+
+    <h1 id="Welcome to my Creation" class="title"> Welcome to my Creation</h1>
+
+    <h2><b>This is my First page</b>
+    </h2>
+
+</body>
+<p>
+    <main> During the day Plan:</main>
+</p>
+
+<ol id='ordered1'>
+
+    <li><b>Breakfast</b></li>
+    <li><b>Working out</b></li>
+    <li><b>shower</b></li>
+    <li><b>Self learning</b>
+        <ul>
+            <li>coding courses</li>
+            <li>coding excersices</li>
+            <li> finding problems & their solutions</li>
+        </ul>
+    </li>
+    <li><b>work plan for the day</b></li>
+    <li><b>resting time</b></li>
+</ol>
+<br />
+<article>
+    <header>
+        <h2 id="top">the Definitions</h2>
+    </header>
+    <dl>
+        <dt><strong>breakfast:</strong></dt>
+        <dd>eating healthy food according to protein daily portion needs and carbs, without forgetting about fruits and smoothies</dd><br />
+        <dt><strong>Working out:</strong></dt>
+        <dd>to work out your body shape for about two hours in the morning to stay in high energetic state physically and mentally.</dd><br />
+        <dt><strong>self learning:</strong></dt>
+        <dd>self learning is manifested in putting into practice a self learning and improving process in any area, in order to boost self capacities and knowledge for a better self output.</dd>
+    </dl>
+
+</article><br />
+
+<article>
+    <div>
+        <h2>Best way for self health improvement:</h2>
+
+        <ol>
+            <li><a href="#cardio part"> cardio part</a></li><br/>
+            <li><a href="#explosive part"> explosive part</a></li><br/>
+            <li><a href="#mass gaining"> mass gaining</a></li><br/>
+        </ol>
+    </div>
+
+    <h3 id="cardio part">cardio part</h3>
+    <p> A list of exersices that allow you to have intense working out process to get better with breathing capacities and endurance.</p>
+
+    <h3 id="explosive part">cardio part</h3>
+    <p> start doing explosive push ups and burpees using body weight in a short time for 5 reps and 3 sets.</p>
+
+    <h3 id="mass gaining">Mass gaining</h3>
+    <p> using body weight to gain mass by doing pull ups / dips and numerous sets of pulling and lifting light weight to stay in harmony with muscle gains .</p>
+    <hr />
+
+    <p> and like the old saying :<q>The more difficult the <strong>victory</strong>,
+ the <strong>greater</strong> the happiness in <b>winning</b>..</q>
+        <p>
+            <blockquote>
+                <i>being conscious is the <del>worst</del><ins> best</ins> power one could
+ have within</i>
+            </blockquote>
+        </p>
+
+        <section>
+            <p> here's a list of sites to help you learn more:</p>
+            <ol id="ordered2">
+
+                <li><a href="http://www.empireonline.com">muscles work</a></li>
+                <li><a href="http://www.metacritic.com"> explosive work</a></li>
+                <li><a href=="http://www.rottentomatoes.com"> cardio world</a></li>
+            </ol>
+            </style>
+        </section>
+</article>
+
+<h3> Which main element do you most need for your health goal achievement:</h3>
+<style>
+    select {
+        color: rgb(19, 93, 204);
+        background: rgba(231, 136, 11, 0.315);
+        font: caption;
+        font-size: 16px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-color: brown;
+        border-radius: 20px;
+        border-spacing: 10px;
+        text-transform: uppercase;
+        white-space: nowrap;
+        letter-spacing: 5px;
+        padding: 5px;
+    }
+</style>
+<select>
+        <option value="carbs">Carbo Hydrates</option>
+        <option value="Protein">Protein</option>
+        <option value="vitamins">Vitamins</option>
+        <option value="fibers">Fibers</option>
+      </select>
+
+
+<h3> here's a soft week program:</h3>
+<table width="400" cellpadding="10" cellspacing="5" border="4">
+    <tr>
+        <th width="150"></th>
+        <th>sunday</th>
+        <th>monday</th>
+        <th>tuesday</th>
+        <th>wednesday</th>
+        <th>thursday</th>
+        <th>friday</th>
+        <th>Saturday</th>
+    </tr>
+    <tr>
+        <th>Cardio</th>
+        <th colspan="6">20 min</th>
+        <td>rest</td>
+    </tr>
+    <tr>
+        <th>explosive</th>
+        <td colspan="3">30 min</td>
+        <td>40 min</td>
+        <td>45 min</td>
+        <td>20 min</td>
+        <td>rest</td>
+</table><br />
+<video width="320" height="240" controls/>
+<source scr="latte-pour.mp4" type="video/mp4" />
+</video>
+
+</body>
+
+<footer>
+    <style>
+        footer {
+            background-color: #b3929231;
+            text-align: center;
+            padding: 10px;
+            margin: 5px;
+            display: block;
+            position: initial;
+        }
+    </style>
+
+    <p> you can mail me for further specs: </p>
+    <address>
+<a href="mailto:ghassenmansouri@mail.com"> Mail me! </a>
+<p>2010 Manouba centre ,RBV </p>
+</address>
+
+
+    <p> we are availbale from <time>9:00</time> to<time> 17:00</time></p>
+    <p><strong>wanna get a call from us ? type your details here:</strong></p><br />
+    <details>
+        <form>
+            <fieldset>
+                <style>
+                    label {
+                        display: inline-block;
+                        border-radius: 90px;
+                        border-style: ridge;
+                        border-color: rgba(65, 105, 225, 0.384);
+                        text-transform: capitalize;
+                        color: purple;
+                        font-family: Georgia, 'Times New Roman', Times, serif;
+                        font-style: oblique;
+                        background: whitesmoke;
+                        padding: 4px;
+                        margin: 4px;
+                    }
+                </style>
+
+                <legend> Enter ur details</legend>
+                <label> enter first name:</label><br />
+                <input type="text" firstName="first name" placeholder="type here" /><br />
+                <label> enter last name</label><br />
+                <input type="text" lastName="last name" placeholder="type here" /><br />
+                <label> enter your age</label><br />
+                <input type="date" age="your age" placeholder="type here" /><br />
+                <label> mail address</label><br />
+                <input type="address" address="your address" placeholder="type here" /><br />
+                <label> enter your phone number </label><br />
+                <input type="tel" id="phone" name="phone" maxlength="8" placeholder="eight Digits" /><br />
+                <input type="submit" value="submit it all" />
+
+
+
+            </fieldset>
+        </form>
+
+        <form>
+            <fieldset>
+                <legend> which time would you rather train ?</legend>
+                <input type="checkbox" id="morning" name="morning time" />
+                <label> morning time </label><br />
+                <input type="checkbox" id="evening" name="evening time" />
+                <label> evening time </label><br />
+                <input type="checkbox" id="night" name="night time" />
+                <label> night time </label><br /><br />
+
+                <button type "submit"> forward answer</button><br />
+                <!-- or apply this way-->
+                <!--<input type="submit" value="send it all" /><br />-->
+        </form>
+
+        <form>
+            <p> ask our instructor <q><i>Yasmine</i></q>!</p>
+            <textarea style='font: message-box;' type="text" rows="5" cols="30" placeholder="say what to Yassmine.." style="background: whitesmoke; padding: 10px; margin: 30px;
+border-color: turquoise; border-spacing: 2px;
+outline-offset: 25px; ">
+</textarea>
+            <br />
+            <input type="submit" value="send ur message" />
+            </fieldset>
+
+        </form>
+
+    </details>
+
+    <p><a href="#Welcome to my Creation"> get back to top</a></p>
+
+</footer>
